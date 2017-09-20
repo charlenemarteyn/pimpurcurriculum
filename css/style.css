@@ -1,0 +1,138 @@
+/*body {
+    max-width: 1285px;
+    max-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+section{
+    display: grid;
+    grid-template-rows: 100px 100px 100px 250px;
+}
+
+.exams{
+    display:grid;
+    grid-template-columns: repeat (6, 1fr);
+    grid-template:
+        "sem sem1 sem2 sem3 sem4 sem"
+    grid-gap: 30px;
+    text-align: center;
+}
+
+.first, .second, .third, .forth{
+    width:270px;
+    height:270px;
+    background-color: aquamarine;
+    margin-left:30px;
+    margin-right: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.first{
+    display:grid;
+    grid-area: sem1;
+}
+
+.second{
+    display:grid;
+    grid-area: sem2;
+}
+
+.third{
+    display:grid;
+    grid-area: sem3;
+}
+
+.forth{
+    display:grid;
+    grid-area: sem4;
+}*/
+
+/* TRIAL */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', 'sans-serif';
+  background-color: #fff;
+  color: #444;
+}
+
+h1,
+p {
+  margin: 0 0 1em 0;
+}
+
+.wrapper {
+  max-width: 1039px;
+  margin: 0 20px;
+  display: grid;
+  grid-gap: 10px;
+}
+
+
+/* no grid support? */
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-auto-rows: minmax(150px, auto);
+}
+
+.panel {
+  /* needed for the flex layout*/
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1 1 200px;
+}
+
+.header,
+.footer {
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 0 1 100%;
+  grid-column: 1 / -1;
+}
+
+.wrapper > * {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+  margin-bottom: 10px;
+}
+
+.sidebar {
+    float: left;
+    width: 19.1489%;
+  }
+
+  .content {
+    float: right;
+    width: 79.7872%;
+  }
+
+/* We need to set the margin used on flex items to 0 as we have gaps in grid.  */
+
+@supports (display: grid) {
+  .wrapper > * {
+    margin: 0;
+  }
+}
