@@ -55,10 +55,34 @@ section{
 
 /* TRIAL */
 
+:root {
+    --header-fontfamily: 'Overpass Mono', monospace;
+    --normal-fontfamily: 'Encode Sans Condensed', sans-serif;
+    --red-accent: #f75d45;
+    --green-accent: #60c4a5;
+    --blue-accent: #5e80d1;
+}
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+      width: 15px;
+}
+
+::-webkit-scrollbar-track {
+      background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+      background-color: var(--red-accent);
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+      background-color: var(--blue-accent);
 }
 
 body {
@@ -66,6 +90,83 @@ body {
   font-family: 'Open Sans', 'sans-serif';
   background-color: #fff;
   color: #444;
+}
+
+nav {
+    font-family: var(--header-fontfamily);
+    font-size: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:link{
+    color: white;
+}
+
+nav a:visited{
+    color: white;
+}
+
+nav a:hover{
+    color: var(--red-accent);
+}
+
+nav a:active{
+    color: white;
+}
+
+
+
+nav a:not(#logo) {
+    display: none;
+    padding: 1em;
+    text-decoration: none;
+}
+
+#m:checked~a {
+    display: block;
+}
+
+
+#m {
+    display: none;
+}
+
+#logo{
+    float: right;
+    width: 60%;
+    margin-top: -3vh;
+    margin-right: -2vw;
+}
+
+label {
+    margin-left: -3vw;
+}
+
+@media screen and (min-width: 640px) {
+    label,
+    input#m {
+        display: none;
+    }
+
+    nav#navbar a{
+        display: block;
+        float: right;
+        color: white;
+    }
+
+    #navbar #logo{
+        float: left;
+    }
+
+    nav {
+        display: block;
+    }
+
+    #logo{
+        width: 40%;
+        margin-top: 0%;
+    }
 }
 
 h1,
