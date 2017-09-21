@@ -427,6 +427,6 @@ a.active_menulink, #navbar a.active_menulink {
 }
 
 #description{
-    overflow: scroll;
+    overflow: auto;
     height: 50vh;
 }
