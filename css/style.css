@@ -178,6 +178,8 @@ color: white;    padding-top: 10%;
 
 body{
     background-image: url(../img/mic.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
 }
 
 #navbar a{
@@ -185,6 +187,16 @@ body{
 }
 .hidden {
     display:none
+}
+
+
+.normal-fontfamily{
+    font-family: var(--normal-fontfamily);
+    margin-bottom: 80vh;
+}
+
+.header-fontfamily{
+    font-family: var(--header-fontfamily);
 }
 @media screen and (min-width: 640px) {
     label,
@@ -450,6 +462,10 @@ hr {
     padding-bottom: 2vh;
 }
 
-/*** SHINE EFFECT ***/
 
+/*** SHINE EFFECT ***/
+.move-up{
+    top: 0px;
+    left: 0px;
+}
 
