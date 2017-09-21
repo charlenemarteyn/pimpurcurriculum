@@ -148,6 +148,7 @@ nav a:not(#logo) {
 
 label {
     margin-left: -3vw;
+    color: white;
 }
 
 .overview-grid {
@@ -163,20 +164,28 @@ label {
 }
 
 .overview-grid a {
-    color: black;
-}
+color: white;}
 
 .panel{
-    color: black;
-    padding-top: 10%;
+color: white;    padding-top: 10%;
     border: none;
 }
 
 .wrapper .panel a{
-    text-decoration: none;
-    color: black;
+/*    text-decoration: none;*/
+/*    color: black;*/
 }
 
+body{
+    background-image: url(../img/mic.jpg);
+}
+
+#navbar a{
+    color: white;
+}
+.hidden {
+    display:none
+}
 @media screen and (min-width: 640px) {
     label,
     input#m {
@@ -205,7 +214,6 @@ label {
         grid-template-columns: repeat(auto-fill, minmax(25%, 1fr));
     }
     body {
-        background-image: url(../img/mic.jpg);
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: 0 -50px;
@@ -438,7 +446,9 @@ hr {
     color: black;
 }
 
-
+.fa-2x{
+    padding-bottom: 2vh;
+}
 
 /*** SHINE EFFECT ***/
 

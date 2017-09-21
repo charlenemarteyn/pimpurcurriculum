@@ -1,14 +1,14 @@
 {
     "coreareas":[
-        {"title":"Communication",
+        {"title":"Business",
          "topics":[
 
-             {"title":"Knowledge",
-              "content":""
+             {"title":"ECTS",
+              "content":20
              },
 
              {"title":"Knowledge",
-              "content":["key communication theory and method applied in the multimedia field","key marketing theory and method applied in the multimedia field","key applied communicative tools and techniques and genres","key concepts in the field of media sociology (the use of digital media by different social groups, both historically and currently)."]
+              "content":["key communication theory and method applied in the multimedia field","key marketing theory and method applied in the multimedia field","key applied communicative tools and techniques and genres","key concepts in the field of media sociology (the use of digital media by different social groups, both historically and currently)"]
              },
 
              {"title":"Skills",
@@ -17,72 +17,29 @@
 
              {"title":"Competencies",
               "content":["handle communication and marketing across platforms","handle digital marketing","handle interactive communication in multimedia products","participate in disciplinary and interdisciplinary teams both internally and externally based on a professional approach" ]
-             },
+             }
          ]
         },
-
-        {"title":"2nd semester",
+        {"title":"Communication",
          "topics":[
-             {"title":"Program",
-              "content":"Hi mom",
-              "image":""
+
+             {"title":"ECTS",
+              "content":20
              },
-             {"title":"Objectives",
-              "content":"Hi mom",
-              "image":""
+
+             {"title":"Knowledge",
+              "content":["key communication theory and method applied in the multimedia field","key marketing theory and method applied in the multimedia field","key applied communicative tools and techniques and genres","key concepts in the field of media sociology (the use of digital media by different social groups, both historically and currently)"]
              },
-             {"title":"Exams",
-              "content":"Hi mom",
-              "image":""
+
+             {"title":"Skills",
+              "content":["collect and assess empirical data on target groups and situations", "apply key methods and tools to describe a target group in relation to multimedia tasks","assess and produce communication aimed at selected target groups","apply key methods and tools to build and assess information architecture, including structuring, planning and communicating information", "apply key methods and tools to plan and conduct user tests", "summarise and communicate a development project in the form of a report", "apply key methods and tools for stakeholder presentations", "assess and apply communication elements in various media productions", "assess the importance of cultural factors to national and international communication", "assess connections between cultural identity and forms of expression","identify, select and present communication strategies and forms of communication for undertaking multimedia tasks in a globalised society."]
              },
+
+             {"title":"Competencies",
+              "content":["handle communication and marketing across platforms","handle digital marketing","handle interactive communication in multimedia products","participate in disciplinary and interdisciplinary teams both internally and externally based on a professional approach" ]
+             }
          ]
-        },
+        }
 
-        {"title":"3rd semester",
-         "topics":[
-             {"title":"Program",
-              "content":"Hi mom",
-              "image":""
-             },
-             {"title":"Objectives",
-              "content":"Hi mom",
-              "image":""
-             },
-             {"title":"Exams",
-              "content":"Hi mom",
-              "image":""
-             },
-             {"title":"Study abroad",
-              "content":"Hi mom",
-              "image":""
-             },
-         ]
-        },
 
-        {"title":"4th semester",
-         "topics":[
-             {"title":"Program",
-              "content":"Hi mom",
-              "image":""
-             },
-             {"title":"Objectives",
-              "content":"Hi mom",
-              "image":""
-             },
-             {"title":"Exams",
-              "content":"Hi mom",
-              "image":""
-             },
-             {"title":"Internship",
-              "content":"Hi mom",
-              "image":""
-             },
-         ]
-        },
-
-    ]
-}
-
-{
-
-}
+        ]}
