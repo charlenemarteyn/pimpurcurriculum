@@ -1,0 +1,84 @@
+{
+    "semesters":[
+        {"title":"1st semester",
+         "topics":[
+             {"title":"Program",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Objectives",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Portfolio evaluation",
+              "content":"Hi mom",
+              "image":""
+             },
+         ]
+        },
+
+        {"title":"2nd semester",
+         "topics":[
+             {"title":"Program",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Objectives",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Exams",
+              "content":"Hi mom",
+              "image":""
+             },
+         ]
+        },
+
+        {"title":"3rd semester",
+         "topics":[
+             {"title":"Program",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Objectives",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Exams",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Study abroad",
+              "content":"Hi mom",
+              "image":""
+             },
+         ]
+        },
+
+        {"title":"4th semester",
+         "topics":[
+             {"title":"Program",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Objectives",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Exams",
+              "content":"Hi mom",
+              "image":""
+             },
+             {"title":"Internship",
+              "content":"Hi mom",
+              "image":""
+             },
+         ]
+        },
+
+    ]
+}
+
+{
+
+}
