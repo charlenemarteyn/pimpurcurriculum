@@ -424,14 +424,13 @@ a.active_menulink, #navbar a.active_menulink {
 .exam, .overview-items{
     overflow: auto;
     height: 50vh;
+    background-color:white;
+    margin-left:16vw;
+    margin-right:16vw;
+    border:1px solid var(--green-accent)
 }
 
 #description{
     overflow: auto;
-    height: 50vh;
-    background-color:white;
-    margin-left:16vw;
-    margin-right:16vw;
-    border:1px solid var(--green-accent);
 }
 
