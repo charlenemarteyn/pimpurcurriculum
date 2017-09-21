@@ -1,10 +1,14 @@
 window.addEventListener('load', function() {
             let tl = new TimelineMax();
+    let fontSize = 115;
+    if (!window.matchMedia("(min-width: 800px)").matches) {
+fontSize = 50;
+}
+
             tl.
             staggerFrom('.menu span', 0.5, {
                     y: -500,
                     ease: SteppedEase.config(10),
-                    'font-size': 1,
                  rotation: function() {
                         return Math.random() * 360
                     }
@@ -16,7 +20,7 @@ window.addEventListener('load', function() {
                     }
             }).staggerTo(".menu span", 0.5, {
                 'color': "#60c4a5",
-                'font-size': 115,
+                'font-size': fontSize,
                 ease: Expo.easeOut,
                 rotation: "0deg"
             }).staggerTo(".menu span", 0.5, {

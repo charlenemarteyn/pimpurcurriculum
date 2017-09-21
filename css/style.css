@@ -289,7 +289,7 @@ label {
 
     .coreareas-grid{grid-template-columns: repeat(4, 1fr);}
 
-    .overview-grid a.effect-shine, .coreareas-grid div.effect-shine, .exams-grid p.effect-shine {
+    .overview-grid .effect-shine, .coreareas-grid div.effect-shine, .exams-grid div.effect-shine {
     -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
     -webkit-mask-size: 200%;
     animation: shine 2s infinite;
