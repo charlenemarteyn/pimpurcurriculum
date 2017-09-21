@@ -153,7 +153,7 @@ label {
 
 .overview-grid {
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+/*    grid-template-rows: repeat(3, 1fr);*/
     justify-items: center;
     align-items: center;
     vertical-align: middle;
@@ -422,9 +422,11 @@ hr {
 
 /******* DIVERSE THINGS********/
 
-#navbar a.active_menulink {
+a.active_menulink, #navbar a.active_menulink {
     color: var(--green-accent);
 }
+
+
 
 
 /**** front page animation ***/
@@ -469,3 +471,6 @@ hr {
     left: 0px;
 }
 
+.exam, .overview-items{
+    font-family: var(--normal-fontfamily);
+}
