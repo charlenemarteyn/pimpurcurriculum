@@ -423,7 +423,7 @@ a.active_menulink, #navbar a.active_menulink {
 
 .exam, .overview-items{
     overflow: auto;
-    height: 50vh;
+    height: 48vh;
     background-color:white;
     margin-left:16vw;
     margin-right:16vw;
@@ -432,5 +432,18 @@ a.active_menulink, #navbar a.active_menulink {
 
 #description{
     overflow: auto;
+}
+
+.no-margin-top{
+    margin-top:0 !important;
+}
+
+.coreareas-scroll{
+        overflow-y: scroll;
+    height: 50vh;
+    background-color: white;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    padding: 20px;
 }
 

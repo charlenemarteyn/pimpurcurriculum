@@ -51,6 +51,8 @@ function show(data) {
             //console.log(data.coreareas[index])
             sections.forEach(function (s) {
                 s.classList.add("normal-fontfamily");
+                coreAreasGrid.classList.add("no-margin-top");
+                s.classList.add("coreareas-scroll");
                 s.classList.add('hidden');
             })
 
