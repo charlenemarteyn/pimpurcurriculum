@@ -27,7 +27,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: var(--red-accent);
+    background-color: var(--green-accent);
 }
 
 
@@ -336,7 +336,7 @@ hr {
 
 .wrapper>* {
     /*    background-color: #3E3B3B;*/
-    border-radius: 5px;
+    /*border-radius: 5px;*/
     padding: 20px;
     font-size: 150%;
     margin-bottom: 10px;
@@ -424,4 +424,9 @@ a.active_menulink, #navbar a.active_menulink {
 .exam{
     overflow: auto;
     height: 50vh;
+    background-color:white;
+    margin-left:16vw;
+    margin-right:16vw;
+    border:1px solid var(--green-accent);
 }
+
