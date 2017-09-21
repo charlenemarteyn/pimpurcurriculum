@@ -416,3 +416,12 @@ a.active_menulink, #navbar a.active_menulink {
 .exam, .overview-items{
     font-family: var(--normal-fontfamily);
 }
+
+.first-semester .exams-grid, .second-semester .exams-grid, .third-semester .exams-grid, .fourth-semester .exams-grid{
+    margin-top: 0px;
+}
+
+.exam{
+    overflow: auto;
+    height: 50vh;
+}
