@@ -475,11 +475,11 @@ a.active_menulink, #navbar a.active_menulink {
     font-family: var(--normal-fontfamily);
 }
 
-.first-semester .exams-grid, .second-semester .exams-grid, .third-semester .exams-grid, .fourth-semester .exams-grid{
+.first-semester .exams-grid, .second-semester .exams-grid, .third-semester .exams-grid, .fourth-semester .exams-grid, .studyabroad-overview .overview-grid, .elective-overview .overview-grid,  .description-overview .overview-grid{
     margin-top: 0px;
 }
 
-.exam{
+.exam, .overview-items{
     overflow: auto;
     height: 50vh;
 }
