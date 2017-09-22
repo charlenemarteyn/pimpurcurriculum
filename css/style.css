@@ -140,6 +140,30 @@ body{
 .header-fontfamily{
     font-family: var(--header-fontfamily);
 }
+
+.exam, .overview-items {
+    overflow: auto;
+    height: 70vh;
+    background-color: white;
+    /* margin-left: 16vw; */
+    /* margin-right: 16vw; */
+    border: 1px solid var(--green-accent);
+}
+
+.coreareas-scroll{
+    overflow-y: scroll;
+    background-color: white;
+    padding: 20px;
+    height: 70vh;
+}
+
+.wrapper div#internship {
+    font-family: var(--normal-fontfamily);
+    background-color: white;
+    overflow-y: scroll;
+    height: 70vh;
+}
+
 @media screen and (min-width: 640px) {
     label,
     input#m {
@@ -249,6 +273,40 @@ body{
         overflow: hidden;
     }
 
+
+    .exam, .overview-items {
+    overflow: auto;
+    height: 70vh;
+    background-color: white;
+    margin-left: 16vw;
+    margin-right: 16vw;
+        border: 1px solid var(--green-accent);}
+
+    .coreareas-scroll{
+    overflow-y: scroll;
+        background-color: white;
+    margin-left: 16vw;
+    margin-right: 16vw;
+    padding: 20px;
+}
+
+    .wrapper div#internship {
+    font-family: var(--normal-fontfamily);
+     width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: white;
+    overflow-y: scroll;
+    height: 70vh;
+}
+
+    div.overview-items, div.exam{
+            margin-left: 18vw;
+    margin-right: 18vw;
+    }
+
+
+    /* width: 80%; */
     .coreareas-grid{grid-template-columns: repeat(4, 1fr);}
 
     .overview-grid .effect-shine, .coreareas-grid div.effect-shine, .exams-grid div.effect-shine {
@@ -421,15 +479,6 @@ a.active_menulink, #navbar a.active_menulink {
     margin-top: 0px;
 }
 
-.exam, .overview-items{
-    overflow: auto;
-    height: 48vh;
-    background-color:white;
-    margin-left:16vw;
-    margin-right:16vw;
-    border:1px solid var(--green-accent)
-}
-
 #description{
     overflow: auto;
 }
@@ -438,12 +487,5 @@ a.active_menulink, #navbar a.active_menulink {
     margin-top:0 !important;
 }
 
-.coreareas-scroll{
-        overflow-y: scroll;
-    height: 50vh;
-    background-color: white;
-    margin-left: 16vw;
-    margin-right: 16vw;
-    padding: 20px;
-}
+
 
